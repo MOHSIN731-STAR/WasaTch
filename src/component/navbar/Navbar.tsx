@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 type NavItem = {
   label: string;
@@ -51,8 +52,8 @@ const Navbar: React.FC = () => {
         >
           {navItems.map((item, index) => (
             <li key={index}>
-              <a
-                href={item.link}
+              <Link
+                to={item.link}
                 className="hover:opacity-70 transition duration-200 text-sm xl:text-base"
               >
                 {/* Fix long text */}
@@ -63,7 +64,7 @@ const Navbar: React.FC = () => {
                 ) : (
                   item.label
                 )}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
@@ -111,13 +112,13 @@ const Navbar: React.FC = () => {
           <ul className="flex flex-col space-y-6 text-lg font-kantum text-center">
             {navItems.map((item, index) => (
               <li key={index}>
-                <a
-                  href={item.link}
+                <Link
+                  to={item.link}
                   onClick={() => setIsOpen(false)}
                   className="hover:opacity-70 transition"
                 >
                   {item.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
