@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@theme {
+  --font-playfair: "Playfair Display", serif;
+  --font-kantumruy-pro: "Kantumruy Pro", serif;
+--font-libre-baskerville: "Libre Baskerville", serif;
+  
+}
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+  }
+
+  p {
+    font-family: "Kantumruy Pro", sans-serif;
+  }
+
+  span {
+    font-family: "Libre Baskerville", serif;
+  }
+}
