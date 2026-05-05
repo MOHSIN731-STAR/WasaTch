@@ -79,7 +79,7 @@ const PremiumCurve = () => {
           </p>
           
         </div>
-<div className="flex flex-col mt-8 md:mt-24 z-50">
+<div className="flex flex-col mt-8 md:mt-24 z-50 relative">
   <img src="/icon.png" alt="icon" className="w-6 h-6 mb-2" />
   
   <p className="font-medium text-sm ">

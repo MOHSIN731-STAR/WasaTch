@@ -155,7 +155,7 @@ const Slider: React.FC = () => {
                     {item.description}
                   </p>
 
-                  <div className="text-yellow-400 mb-3">★★★★★</div>
+                  <div className="text-[#79A8A2] mb-3">★★★★★</div>
 
                   <hr className="mb-3 opacity-30" />
 
