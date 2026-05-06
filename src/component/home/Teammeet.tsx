@@ -40,13 +40,13 @@ const apart=[
 const TeamSection = () => {
   return (
     <>
- <div className="bg-[#C5D7EC] py-8 pb-16 px-6 rounded-xl m-2">
+ <div className="bg-[#C5D7EC] py-8 pb-20 px-6 rounded-xl m-2">
   <h2 className="text-3xl md:text-4xl font-semibold text-center mb-12 font-playfair">
     Meet the Team
   </h2>
 
   {/* GRID */}
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-36 lg:gap-48 place-items-center md:px-36   lg:px-44">
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-36 lg:gap-48 place-items-center md:px-36   lg:px-44">
     {team.map((member, index) => (
       <div
         key={index}
