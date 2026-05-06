@@ -19,7 +19,7 @@ const Portfolio = () => {
           Investing in the Future <br/> of Healthcare Innovation
           </p>
 
-          <span className='font-thin md:text-lg text-sm font-kantum block mt-4 pb-6'>
+          <span className='font-thin md:text-lg text-sm font-kantum block '>
             Driving growth through flexible capital, operational support, and <br />
             trusted partnerships.
           </span>
