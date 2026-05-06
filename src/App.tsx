@@ -14,10 +14,10 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Portfolio" element={<Portfolio />} />
-        <Route path="/Market" element={<Market />} />
-        <Route path="/Teams" element={<Teams />} />
-        <Route path="/FlexAble" element={<FlexAble />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/market" element={<Market />} />
+        <Route path="/teams" element={<Teams />} />
+        <Route path="/flexable" element={<FlexAble />} />
       </Routes>
       <Footer />
     </>

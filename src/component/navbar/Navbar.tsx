@@ -9,10 +9,10 @@ type NavItem = {
 const navItems: NavItem[] = [
   { label: "Home", link:"/" },
   { label: "About", link:"/" },
-  { label: "Portfolio", link:"Portfolio" },
-  { label: "Why We Invest", link:"Market" },
-  { label: "Our Teams", link:"Teams" },
-  { label: "FlexAble", link:"FlexAble" },
+  { label: "Portfolio", link:"/portfolio" },
+  { label: "Why We Invest", link:"/market" },
+  { label: "Our Teams", link:"/teams" },
+  { label: "FlexAble", link:"/flexable" },
 ];
 
 const Navbar: React.FC = () => {
